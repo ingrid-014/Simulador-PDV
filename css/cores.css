@@ -1,0 +1,19 @@
+
+:root {
+    --bg-sidebar: #410055;
+    --font-sidebar: white;
+
+    --bg-logo: #500268;
+
+    --bg-light: #e9b1fb;
+    --bg-dark: #302134;
+    --bg-mode: var(--bg-light);
+
+    --font-light: #302134;
+    --font-dark: #e9b1fb;
+    --font-mode: var(--font-light);
+
+    --border-light: #302134;
+    --border-dark: #e9b1fb;
+    --border-mode: var(--border-light);
+}

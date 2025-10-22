@@ -1,0 +1,62 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(204, 137, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+@font-face {
+    font-family: 'TechnoRace';
+    src: url('../fonts/TechnoRace-Italic.otf');
+}
+
+.logo{
+    font-family: 'TechnoRace';
+    font-size: 30px;
+}
+
+main{
+    background-color: rgb(255, 174, 252);
+    padding: 30px 50px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px black;
+}
+
+#campos form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+#campos form p {
+    text-align: center;
+}
+
+#campos form p a {
+    text-decoration: none;
+}
+
+button {
+    background-color: #941fbf;
+    color: #f2f5f4;
+    margin-top: 20px;
+    padding: 10px 0px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #7336c3;
+    color: #291446;
+}
+
+#erro{
+    color: rgb(255, 0, 153);
+    font-weight: bold;
+    display: none;
+}
